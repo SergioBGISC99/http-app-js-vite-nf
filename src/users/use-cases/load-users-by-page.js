@@ -13,5 +13,7 @@ export const loadUsersByPage = async (page = 1) => {
 
   const users = data.map(localhostUserToModel);
 
+  console.log(users);
+
   return users;
 };
